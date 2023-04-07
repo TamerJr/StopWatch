@@ -1,0 +1,46 @@
+body{
+    background-color: #366918;
+    height: 100vh;
+
+    
+}
+div.container{
+    margin: 35vh auto;
+    width :40%;
+    border-radius: 15px;
+    border:1px solid  #b85353;
+    height: 250px;
+    box-shadow: 0px 1px 5px 2px rgba(255, 255, 255, 0.462);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem ;
+}
+
+.timer{
+    background-color: #932d2d70;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 9px 1px #0d140944 ;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: larger;
+    align-items: center;
+}
+.btns{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+button{
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: larger;
+}
